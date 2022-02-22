@@ -1,0 +1,9 @@
+flutter run --release
+
+flutter -- 签名
+1.Java binary at: D:\Program Files\Android\Android Studio\jre\bin\java
+2.然后cd到bin这个文件
+3.执行：keytool -genkey -v -keystore D:\wm\map\android\map-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias bifa888
+4.alias 后面的key可以修改 上面 .jks写入的文件我写入E盘是因为C盘木有操作权限QAQ
+5.执行后会有一个交互，然后按操作设置就好了
+6.拿到签名后我们就需要设置签名了
